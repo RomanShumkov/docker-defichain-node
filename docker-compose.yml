@@ -1,0 +1,8 @@
+version: "3.9"
+    
+services:
+  defichain-node:
+    build: docker/defichain-node
+    command: defid -testnet
+    volumes:
+      - .data/defichain-node:/root/.defi
