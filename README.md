@@ -1,6 +1,9 @@
-# DeFiChain Node Playground
+# DeFiChain Node (arm64) Playground
 
-Easy-to-set-up playground for experimenting with DeFiChain node.
+Easy-to-set-up playground for experimenting with DeFiChain node on arm64 processor (e.g. Apple M1).
+
+In case of x86_64 processor consider using official docker [image](https://hub.docker.com/r/defi/defichain).
+
 Main building blocks:
  - [DeFiChain Node](https://github.com/DeFiCh/ain) software for running a node in DeFiChain network
  - [Docker Desktop](https://www.docker.com/products/docker-desktop) application containerization technology
@@ -13,7 +16,7 @@ Installation is a 2 step process assuming Docker Desktop is installed already.
 ### Step 1: Clone the repo
 
 ```bash
-git clone git@github.com:RomanShumkov/docker-defichain-node.git .
+git clone git@github.com:RomanShumkov/docker-defichain-node-arm64.git .
 ```
 
 ### Step 2: Install
